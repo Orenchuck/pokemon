@@ -16,6 +16,7 @@
 
 .list-group {
   margin-left: 2%;
+  width: 90%;
 }
 
 @media (max-width: 600px) {
