@@ -177,7 +177,7 @@ render() {
       {pokemons && pokemons.length !== 0 ? 
         pokemons.map(pokemon => (
           <Col lg={2} md={4} sm={6} xs={12}>
-          <div key={pokemon.id} onClick={() => this.showModal(pokemon)} className="pokeCard">
+          <div key={pokemon.id} onClick={() => this.showModal(pokemon)}>
             <h3>{pokemon.name}</h3>
             <img src={`https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png`} alt="" style={{width: "100px"}} />
             {pokemon.types.map(type => (
